@@ -11,7 +11,7 @@ if (global.jogador_2) {
 } else if (global.jogador_2 == false){
 	//Se jogador 2 for false:
 	draw_text(x,y, "1 x IA");
-	obj_Raquete2.y = 360;//Centralizando a raquete;
+	obj_Raquete2.y = 256;//Centralizando a raquete;
 	//show_debug_message(obj_Raquete2.ystart)
 }
 
