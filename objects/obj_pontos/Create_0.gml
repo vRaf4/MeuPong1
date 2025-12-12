@@ -1,3 +1,4 @@
+maxPontos = 0;
 
 //Definindo a pontuação máxima:
 switch (global.max_Pontos) {

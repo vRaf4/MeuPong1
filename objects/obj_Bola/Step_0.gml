@@ -5,8 +5,6 @@ global.vSpeedBola = vspeed;
 
 audio_pause_sound(snd_quicar2);
 
-//audio_resume_all();
-
 //Criando o gol:
 
 if (x < -64) {
@@ -46,11 +44,3 @@ if (x < -64) {
 //Rotação da bola:
 image_angle += speed * velRotacao; 
 //O angulo da imagem vai receber a velocidade da bola * a velocidade de rotação;
-
-//show_debug_message(velRotacao);
-
-//Trajetória fantasma para a bola:
-//instance_create_layer(x, y, "Efeito", obj_trilha);
-//O efeito funciona, mas buga quando a bola 'quica';
-//show_debug_message(direction);
-

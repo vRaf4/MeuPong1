@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_Controle",
+  "%Name":"scp_Controle",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_Controle",
+  "name":"scp_Controle",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

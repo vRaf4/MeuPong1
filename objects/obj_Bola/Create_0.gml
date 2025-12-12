@@ -1,6 +1,8 @@
-vel = 3;
+velBola = 3;
 
 velRotacao = 1;
+
+velMaxima = 10;
 
 //Vai definir a velocidade dela de acordo com a dificuldade:
 switch (global.dificuldade) {
@@ -15,14 +17,21 @@ switch (global.dificuldade) {
 	case 2: 
 		incremento_velBola = 3.1;//Difícil;
 		velMaxima = 18;
-		vel = 5;
+		velBola = 5;
 	break;
 	default: 
-		vel = 3;
+		velBola = 3;
 	break;
 }
 
-randomise();//Para cada vez que iniciar, o game maker vai gerar números diferentes;
+// Opcional (para variar a seed no HTML5):
+//Pois o randomise() não estava funcionando no html;
+//random_set_seed(current_time);////Para cada vez que iniciar, o game maker vai gerar números diferentes;
+
+if (!variable_global_exists("init_random")) {
+    randomise();
+    global.init_random = true;
+}
 
 direction = choose(45, 135, 225, 315);//A direção vai ser uma dessas;
 //45, 135, 235, 275

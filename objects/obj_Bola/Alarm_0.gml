@@ -1,1 +1,1 @@
-speed = vel;
+speed = velBola;

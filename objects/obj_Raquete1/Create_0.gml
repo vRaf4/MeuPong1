@@ -1,1 +1,1 @@
-vel = 4; //Velocidade = 4;
+velJog1 = 4; //Velocidade = 4;
