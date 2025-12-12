@@ -1,3 +1,3 @@
 draw_self();
 
-draw_text(1030, 660, "Music OFF");
+draw_text(760, 500, "Music OFF");
