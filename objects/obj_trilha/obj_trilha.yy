@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Trilha",
-    "path":"sprites/spr_Trilha/spr_Trilha.yy",
+    "name":"spr_Bola2",
+    "path":"sprites/spr_Bola2/spr_Bola2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Bola",
+  "%Name":"obj_Bola2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Raquete1","path":"objects/obj_Raquete1/obj_Raquete1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,10 +8,10 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Colisao","path":"objects/obj_Colisao/obj_Colisao.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Bola2","path":"objects/obj_Bola2/obj_Bola2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Bola","path":"objects/obj_Bola/obj_Bola.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Bola",
+  "name":"obj_Bola2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Bola",
-    "path":"sprites/spr_Bola/spr_Bola.yy",
+    "name":"spr_Bola2",
+    "path":"sprites/spr_Bola2/spr_Bola2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
