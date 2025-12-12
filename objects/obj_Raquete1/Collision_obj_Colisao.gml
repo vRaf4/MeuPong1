@@ -1,0 +1,1 @@
+vspeed = 0;//Quando colidir, a velocidade vertical recebe 0;

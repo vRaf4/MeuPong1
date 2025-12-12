@@ -1,0 +1,1 @@
+vel = 4; //Velocidade = 4;
