@@ -24,14 +24,7 @@ switch (global.dificuldade) {
 	break;
 }
 
-// Opcional (para variar a seed no HTML5):
-//Pois o randomise() não estava funcionando no html;
-//random_set_seed(current_time);////Para cada vez que iniciar, o game maker vai gerar números diferentes;
-
-if (!variable_global_exists("init_random")) {
-    randomise();
-    global.init_random = true;
-}
+randomise();//Vai gerar números aleatórios cada vez que iniciar;
 
 direction = choose(45, 135, 225, 315);//A direção vai ser uma dessas;
 //45, 135, 235, 275
