@@ -4,6 +4,8 @@ velRotacao = 1;
 
 velMaxima = 10;
 
+som_cooldown = 0;
+
 //Vai definir a velocidade dela de acordo com a dificuldade:
 switch (global.dificuldade) {
 	case 0: 
@@ -27,7 +29,6 @@ switch (global.dificuldade) {
 randomise();//Vai gerar números aleatórios cada vez que iniciar;
 
 direction = choose(45, 135, 225, 315);//A direção vai ser uma dessas;
-//45, 135, 235, 275
 
 alarm[0] = 60; //Definindo um alarme de 2 segundo;
 
